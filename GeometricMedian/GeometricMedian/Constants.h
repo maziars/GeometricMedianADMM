@@ -11,7 +11,7 @@
 
 #define maxit 500
 #define rho 1.0
-#define epsil .001
+#define epsil .000001
 
 
 #define SingleThread

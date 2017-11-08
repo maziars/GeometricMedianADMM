@@ -2,7 +2,7 @@ clear
 clc
 close all
 N = 100;
-d = 10000;
+d = 1000;
 N1 = round(2*N/3);
 N2 = N - N1;
 Z = rand(d,N1);
