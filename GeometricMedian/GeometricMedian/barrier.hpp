@@ -3,7 +3,8 @@
 //  GeometricMedianADMM
 //
 //  Created by Maziar Sanjabi on 11/7/17.
-//  Copyright © 2017 Maziar Sanjabi. All rights reserved.
+//  Borrowed the code from here: http://blog.albertarmea.com/post/47089939939/using-pthreadbarrier-on-mac-os-x as the pthread barrier is not implemented on OSX
+//
 //
 
 #ifndef barrier_hpp

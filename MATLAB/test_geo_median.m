@@ -1,7 +1,7 @@
 clear
 clc
 close all
-N = 1000;
+N = 100;
 d = 10000;
 N1 = round(2*N/3);
 N2 = N - N1;
@@ -12,9 +12,9 @@ Z = [Z, Zp];
 w = ones(N,1);
 
 %%
-%tic
-%x = geo_median(Z, w);
-%toc
+tic
+x = geo_median(Z, w);
+toc
 %figure;plot(x)
 %x
 %a = sort(Z);

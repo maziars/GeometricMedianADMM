@@ -9,16 +9,16 @@
 #ifndef Constants_h
 #define Constants_h
 
-#define maxit 200
+#define maxit 500
 #define rho 1.0
-#define epsil .1
+#define epsil .001
 
 
 #define SingleThread
 
 
 #define MultiThread
-#define NumThreads 10
+#define NumThreads 2
 
 
 #endif /* Constants_h */
